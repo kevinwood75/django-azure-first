@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "afef2d13-b9f0-4a6c-aa59-050b04b6eec7"
+        },
+        "name": {
+            "value": "woodezfirst"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "woodezfirst"
+        },
+        "serverFarmResourceGroup": {
+            "value": "woodezlearning"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "PYTHON|3.7"
+        }
+    }
+}
